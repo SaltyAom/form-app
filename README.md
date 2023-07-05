@@ -8,6 +8,8 @@ The demo app involve usage of:
 - Utility-first styling
 - Fetch (Network Call)
 
+Summary: [This thread here](https://twitter.com/saltyAom/status/1676664653596999680)
+
 ## Prerequisted
 - [Bun](https://oven.sh) for running demo API server
 
@@ -87,7 +89,17 @@ Cons:
 - Dart is not quite a mainstream language beside usage with Flutter, so not many developer are familiar with the language result in some learning curve
 
 ## Overall
-Both is a great choice for developing cross-platform, and has a difference pros and cons
+Both are fine.
+
+There are sure some DX areas that could be improved in both, but no significantly better choice to pick over the other.
+Mostly you choose to compromise on some area over the other when picking one.
+
+In terms of which to pick when starting a new project:
+No silver bullet but a key takeaway:
+
+For highly customizable or consistent UI, Flutter is clearly the way.
+
+If you are all-in TypeScript or React, a richer ecosystem, React Native is a good choice.
 
 Overall **in my opinion**, my summary is:
 | Type | React Native | Flutter |
@@ -105,3 +117,5 @@ Overall **in my opinion**, my summary is:
 | Debugging (Logic) | ✅ | |
 | Debugging (UI) |  | ✅ |
 | Debugging (Logic) | ✅ | |
+
+Remember that frontend is mostly about User Interface, and Flutter really nailed that.

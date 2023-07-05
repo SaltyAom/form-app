@@ -1,5 +1,4 @@
 import { Elysia, t } from 'elysia'
-import { cors } from '@elysiajs/cors'
 
 const app = new Elysia()
     .get('/', () => 'Hello Elysia')
