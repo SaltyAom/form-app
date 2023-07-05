@@ -61,6 +61,7 @@ Using Flutter 3.10.5
 | --- | --- |
 | Router | vRouter |
 | State Management | Riverpod Hook |
+| Form Management | - (Built-in `controller`) |
 | Styling | Niku |
 | Fetch | Dio, Retrofit |
 | Etc | Flutter Hook |
@@ -93,6 +94,7 @@ Overall **in my opinion**, my summary is:
 | --- | --- | --- |
 | Routing | ✅ |  |
 | State Management | ✅ |  |
+| Form Management | ✅ |  |
 | Styling |  | ✅ |
 | User Interface |  | ✅ |
 | Business Logic DX | ✅ |  |
