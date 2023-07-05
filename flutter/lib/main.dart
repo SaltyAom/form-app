@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import 'package:niku/namespace.dart' as n;
-
 import 'package:vrouter/vrouter.dart';
 
 import 'pages/pages.dart';

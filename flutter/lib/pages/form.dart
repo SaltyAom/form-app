@@ -53,7 +53,7 @@ class FormPage extends HookConsumerWidget {
                 if (!_formKey.currentState!.validate()) return;
 
                 user.update(
-                  api
+                  await api
                       .signIn(
                         SignUser(
                           username: username.text,
