@@ -12,7 +12,7 @@ The demo app involve usage of:
 - [Bun](https://oven.sh) for running demo API server
 
 ## Before Start
-Run the API server in `api:
+Run the API server in ``api`:
 ```bash
 cd api && bun install && bun run start
 ```
@@ -33,6 +33,12 @@ Using React Native 0.72.1
 ```bash
 pnpm install && pnpm start
 ```
+
+If you are using Expo Go to run app, don't forget to edit `react-native/libs/eden.ts` to your local IP address instead of **localhost**
+
+---
+
+### Summary
 
 Pros:
 - It's JavaScript (TypeScript), many developer are familiar with TypeScript
@@ -64,6 +70,10 @@ Using Flutter 3.10.5
 flutter pub get && flutter pub run build_runner build && flutter run
 ```
 
+---
+
+### Summary
+
 Pros:
 - Flutter provide a Material 3 component which looks good out of the box, doesn't required much additional styling
 - Creating UI with utility styling feels just like home
@@ -81,12 +91,15 @@ Both is a great choice for developing cross-platform, and has a difference pros 
 Overall **in my opinion**, my summary is:
 | Type | React Native | Flutter |
 | --- | --- | --- |
-| Router | ✅ |  |
+| Routing | ✅ |  |
 | State Management | ✅ |  |
-| DX for Business Logic | ✅ |  |
-| DX for UI & Styling |  | ✅ |
+| Styling |  | ✅ |
+| User Interface |  | ✅ |
+| Business Logic DX | ✅ |  |
 | Boilerplate (less) | ✅ |  |
 | Fetch | ✅ |  |
 | Setup Experience | ✅ |  |
 | Tooling | ✅ |  |
-| Debugging |  | ✅ |
+| Debugging (Logic) | ✅ | |
+| Debugging (UI) |  | ✅ |
+| Debugging (Logic) | ✅ | |
