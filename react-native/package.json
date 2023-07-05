@@ -1,0 +1,44 @@
+{
+  "name": "expo-app",
+  "version": "1.0.0",
+  "main": "App.tsx",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@elysiajs/eden": "^0.5.6",
+    "@hookform/resolvers": "^3.1.1",
+    "@tanstack/react-query": "^4.29.19",
+    "@types/react": "~18.2.14",
+    "elysia": "0.5.20",
+    "expo": "~48.0.19",
+    "expo-constants": "~14.2.1",
+    "expo-linking": "~4.0.1",
+    "expo-router": "^1.5.3",
+    "expo-status-bar": "~1.4.4",
+    "jotai": "^2.2.1",
+    "nativewind": "^2.0.11",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.1",
+    "react-native": "0.72.1",
+    "react-native-gesture-handler": "~2.12.0",
+    "react-native-safe-area-context": "4.6.4",
+    "react-native-screens": "~3.22.0",
+    "react-native-web": "^0.19.6",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.1.6",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.6"
+  },
+  "resolutions": {
+    "metro": "0.76.0",
+    "metro-resolver": "0.76.0"
+  },
+  "private": true
+}
